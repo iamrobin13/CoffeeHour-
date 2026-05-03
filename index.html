@@ -4,7 +4,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Coffee Hour</title> 
         <link rel ="stylesheet" href="styles.css">
-        <meta name="description" content="Personal website of Nobin - a programmer writing about tech, programming, and travelling." />
+        <link rel = "stylesheet" href="blog.css">
+        <meta name="description" content="Personal website of Nobin - a programmer writing about tech, programming, and travelling."/>
         <meta name="keywords" content=" programming, technology, travel, Cambridge web development" />
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,14 +15,14 @@
    
 
 
-    <body> 
+    <body class = "homepage"> 
         <header> 
             <nav class = 'navbar'>            
                 <img src = "logo1.svg" alt="cafe" class="logo">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Blogs</a></li>
+                    <li><a href="Blog1.html">Blogs</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -42,7 +43,18 @@
             </div>
             <hr>
             </section>
-        </main> 
+            <section class="recent-posts">
+      <h2>Recent Posts</h2>
+
+      <a href="cafe-culture.html" class="blog-card">
+        <img src="image1.PNG" alt="" class="card-image">
+        <div class="card-text">
+          <h3>The Annoying Part of Cafe Culture</h3>
+          <p class="card-date">May 3, 2026</p>
+          <p class="card-excerpt">I was in a coffee shop in Bangladesh, and I was sitting very close to the owner's table...</p>
+        </div>
+    </a>
+    </main> 
 
        <footer class="site-footer">
         <div class="footer-content">
