@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" width="400" height="340">
+  <!-- Steam wisps -->
+  <path d="M 170 60 C 162 48, 178 40, 170 28 C 164 18, 174 12, 170 4"
+        fill="none" stroke="#3a2a1a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 200 60 C 192 48, 208 40, 200 28 C 194 18, 204 12, 200 4"
+        fill="none" stroke="#3a2a1a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 230 60 C 222 48, 238 40, 230 28 C 224 18, 234 12, 230 4"
+        fill="none" stroke="#3a2a1a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cup rim (dark band) -->
+  <ellipse cx="200" cy="78" rx="55" ry="7" fill="#3a2a1a"/>
+  <rect x="145" y="78" width="110" height="8" fill="#3a2a1a"/>
+  <ellipse cx="200" cy="86" rx="55" ry="7" fill="#3a2a1a"/>
+
+  <!-- Cup body -->
+  <path d="M 147 86 Q 147 180 200 184 Q 253 180 253 86"
+        fill="#fdf8f0" stroke="#3a2a1a" stroke-width="2.5"/>
+
+  <!-- Handle -->
+  <path d="M 253 105 Q 288 110 288 138 Q 288 165 253 168"
+        fill="none" stroke="#3a2a1a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Saucer -->
+  <ellipse cx="200" cy="198" rx="92" ry="11"
+           fill="#fdf8f0" stroke="#3a2a1a" stroke-width="2.5"/>
+  <path d="M 108 198 Q 200 218 292 198"
+        fill="none" stroke="#3a2a1a" stroke-width="2.5"/>
+
+  <!-- Title -->
+  <text x="200" y="280"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="42"
+        font-style="italic"
+        font-weight="bold"
+        fill="#3a2a1a"
+        text-anchor="middle">The Coffee Hour</text>
+</svg>
